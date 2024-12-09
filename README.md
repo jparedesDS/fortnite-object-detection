@@ -33,8 +33,8 @@ model.predict(
 #### Results
 ![results.png](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/scX2fjCVtt2qJHv8bL-zE.png)
 #### Predict
-![val_batch0_labels.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/D-CHZnP1saJkaX6b8jIbX.jpeg)
-![val_batch0_pred.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/lC2IGEVDD-FUtAg1SG6RT.jpeg)
+![train_batch2.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/71tVmZsMl-G_aSG8-3czz.jpeg)
+![train_batch1.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/ZoJbTl0LI5N8zncI0BstZ.jpeg)
 ```
 YOLO11m summary (fused): 303 layers, 20,030,803 parameters, 0 gradients, 67.6 GFLOPs
                  Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00, 41.69it/s]
