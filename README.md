@@ -46,3 +46,20 @@ YOLO11m summary (fused): 303 layers, 20,031,574 parameters, 0 gradients, 67.7 GF
 
 #### Others models...
 https://huggingface.co/jparedesDS/valorant-yolov10b
+
+## ❤️ Why buy me a coffee?
+
+If any of my repositories have been useful to you, saved you time, or inspired you in any way, you can support my work by buying me a coffee ☕
+Your support helps me to:
+
+Keep projects maintained and improved
+
+Create new open source repositories
+
+Spend more time documenting and explaining the code
+
+👉 Buy me a coffee here:
+
+<a href="https://buymeacoffee.com/joseparedes" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/>
+</a>
