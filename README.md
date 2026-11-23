@@ -1,65 +1,19 @@
-# Fortnite Object Detection
-Detection of player in fornite with AI (Yolo11)
+﻿<div align="center">
 
-#### Supported Labels
-['head', 'player']
+# This project has moved
 
-#### ALL my models YOLO11, YOLOv10 & YOLOv9
-- Yolov9c: https://huggingface.co/jparedesDS/cs2-yolov9c
-- Yolov10s: https://huggingface.co/jparedesDS/cs2-yolov10s
-- Yolov10m: https://huggingface.co/jparedesDS/cs2-yolov10m
-- Yolov10b: https://huggingface.co/jparedesDS/cs2-yolov10b
-- Yolov10b: https://huggingface.co/jparedesDS/valorant-yolov10b
-- Yolo11x: https://huggingface.co/jparedesDS/welding-defects-detection
+**This repository is archived and read-only.**
 
-#### How to use
-```
-from ultralytics import YOLO
+The project now lives in the consolidated **Object Detection Models** model zoo:
 
-# Load a pretrained YOLO model
-model = YOLO(r'weights\fortnite-yolo11m.pt')
+### → [jparedesDS/object-detection-models](https://github.com/jparedesDS/object-detection-models)
 
-# Run inference on 'image.png' with arguments
-model.predict(
-    'image.png',
-    save=True,
-    device=0
-    )
-```
-#### Confusion matrix normalized
-![confusion_matrix_normalized.png](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/B9zPmKLks9x92bQ71W4WN.png)
-#### Labels
-![labels.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/CSgOxmA86zJ8Bav6ChqOK.jpeg)
-#### Results
-![results.png](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/3oSidFJgQyJL0JZS0nbZW.png)
-#### Predict
-![val_batch1_pred.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/PxU0FT1r34-cg98lLJUiw.jpeg)
-![val_batch2_labels.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/Ltah8kdNiv6GE1knl0HWv.jpeg)
-![val_batch2_pred.jpg](https://cdn-uploads.huggingface.co/production/uploads/62e1c9b42e4cab6e39dafc97/A84rA88ASXon1QL96xhOG.jpeg)
-```
-YOLO11m summary (fused): 303 layers, 20,031,574 parameters, 0 gradients, 67.7 GFLOPs
-                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 12/12 [00:06<00:00,  1.90it/s]
-                   all       1014       2097      0.933      0.739      0.828      0.668
-                  head        223        633      0.947      0.738      0.825      0.664
-                player        990       1464      0.919       0.74      0.831      0.673
-````
+**Direct link:** [Fortnite Player Detection](https://github.com/jparedesDS/object-detection-models/tree/main/projects/fortnite-players-detection)
 
-#### Others models...
-https://huggingface.co/jparedesDS/valorant-yolov10b
+**Model weights:** [Hugging Face](https://huggingface.co/jparedesDS/fortnite-yolo11m)
 
-## ❤️ Why buy me a coffee?
+</div>
 
-If any of my repositories have been useful to you, saved you time, or inspired you in any way, you can support my work by buying me a coffee ☕
-Your support helps me to:
+---
 
-Keep projects maintained and improved
-
-Create new open source repositories
-
-Spend more time documenting and explaining the code
-
-👉 Buy me a coffee here:
-
-<a href="https://buymeacoffee.com/joseparedes" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200"/>
-</a>
+**Español:** este repositorio está archivado. El proyecto y su documentación se mantienen ahora en [object-detection-models](https://github.com/jparedesDS/object-detection-models/tree/main/projects/fortnite-players-detection).
